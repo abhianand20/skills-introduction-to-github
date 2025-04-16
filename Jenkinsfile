@@ -4,6 +4,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'echo " This is myjenkins"'
+        echo 'Ya huh'
       }
     }
 
