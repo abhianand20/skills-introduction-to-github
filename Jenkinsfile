@@ -5,6 +5,10 @@ pipeline {
       steps {
         sh 'echo " This is myjenkins"'
         echo 'Ya huh'
+        timestamps() {
+          sleep 33
+        }
+
       }
     }
 
